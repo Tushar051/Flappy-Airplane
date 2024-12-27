@@ -12,10 +12,10 @@ public class App {
         frame.setResizable(false);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-        FlappyAirplane flappyBird = new FlappyAirplane();
-        frame.add(flappyBird);
+        FlappyAirplane flappyAirplane = new FlappyAirplane();
+        frame.add(flappyAirplane);
         frame.pack();
-        flappyBird.requestFocus();
+        flappyAirplane.requestFocus();
         frame.setVisible(true);
     }
 }
